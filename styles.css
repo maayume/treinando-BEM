@@ -1,0 +1,13 @@
+.users{
+    background-color: white;
+    color:black;
+    font-size: 14px;
+}
+.users_active{
+    background-color: grey;
+    color: blue;
+}
+.users_active--ADM{
+    color: red;
+    font-size: 18px;
+}

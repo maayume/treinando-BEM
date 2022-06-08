@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- crie uma de usuários com fundo branco e letras pretas de tamanho 14px, uma de usuários ativos com fundo cinza e dentre os ativos, utilize azul para a fonte da letra e mostre de letra vermelha tamanho 18px o usuário ADMIN, usando o conceito do BEM-->
+<div class="users">
+    <div class="users__inactive">Fulano</div>
+    <div class="users__inactive">Beltrano</div>
+    <div class="users__inactive">Cicrano</div>
+    <div class="users__inactive">Joselito</div>
+  </div>
+  <!-- usuários ativos, Joselito é o ADM-->
+  <div class="users">
+    <div class="users_active">Cicrano</div>
+    <div class="users_active users_active--ADM">Joselito</div>
+  </div>
+</body>
+</html>
